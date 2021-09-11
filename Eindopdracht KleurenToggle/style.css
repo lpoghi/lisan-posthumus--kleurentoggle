@@ -1,0 +1,59 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.toggle-btn {
+    width: 60px;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.toggle-nav{
+    position: fixed;
+    left: 0;
+}
+
+.toggle-nav ul{
+    overflow: hidden;
+    width: 150px;
+    text-align: center;
+    visibility: hidden;
+    
+}
+.toggle-nav ul li{
+    line-height: 60px;
+    list-style: none;
+    color: black;
+    border-style: solid;
+    border-color: #f1f1f1;
+    text-decoration: none;
+
+}
+
+
+
+
+/* colors */
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.purple{
+    background-color: purple;
+}
+.default{
+    background-color: #f1f1f1;
+}
